@@ -10,6 +10,13 @@
 
  #define GENERIC_REPORT_SIZE       8
 
+#define CDC_TX_EPADDR        (ENDPOINT_DIR_IN  | 1)
+#define CDC_RX_EPADDR        (ENDPOINT_DIR_OUT | 2)
+#define CDC_NOTIFICATION_EPADDR (ENDPOINT_DIR_IN | 3)
+
+#define F_USB F_CPU
+
+#define CDC_TXRX_EPSIZE      64
 
 		/* Non-USB Related Configuration Tokens: */
 //		#define DISABLE_TERMINAL_CODES

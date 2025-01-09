@@ -50,6 +50,7 @@
     #include <LUFA/LUFA/Version.h>
 		#include <LUFA/LUFA/Drivers/USB/USB.h>
 
+
 		/* Type Defines: */
     /** Type define for the HID class specific HID descriptor, to describe the HID device's specifications. Refer to the HID
      *  specification for details on the structure elements.
